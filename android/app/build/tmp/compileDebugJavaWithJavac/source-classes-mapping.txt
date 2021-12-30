@@ -1,0 +1,14 @@
+com/rvir/MainActivity.java
+ com.rvir.MainActivity
+com/rvir/MainApplication.java
+ com.rvir.MainApplication
+ com.rvir.MainApplication$1
+com/rvir/ReactNativeFlipper.java
+ com.rvir.ReactNativeFlipper
+ com.rvir.ReactNativeFlipper$1
+ com.rvir.ReactNativeFlipper$2
+ com.rvir.ReactNativeFlipper$2$1
+com/rvir/BuildConfig.java
+ com.rvir.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

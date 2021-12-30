@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "744081597216",
+    "project_id": "rvirpro",
+    "storage_bucket": "rvirpro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744081597216:android:7883aea515334d06f8ed45",
+        "android_client_info": {
+          "package_name": "com.rvir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744081597216-pslhbdh1h0rdfi6lh96e047hhrfkv74l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rvir",
+            "certificate_hash": "f9a4cdcc375c5bfb8bf913511e45e090a0586974"
+          }
+        },
+        {
+          "client_id": "744081597216-q5lk6dav7o3puro78dvi8h4dte097c6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7nzM3F1izGgmQGwHk4dKsZnezBnIhZAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744081597216-q5lk6dav7o3puro78dvi8h4dte097c6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

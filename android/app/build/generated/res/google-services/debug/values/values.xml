@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">744081597216-q5lk6dav7o3puro78dvi8h4dte097c6d.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">744081597216</string>
+    <string name="google_api_key" translatable="false">AIzaSyD7nzM3F1izGgmQGwHk4dKsZnezBnIhZAQ</string>
+    <string name="google_app_id" translatable="false">1:744081597216:android:7883aea515334d06f8ed45</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD7nzM3F1izGgmQGwHk4dKsZnezBnIhZAQ</string>
+    <string name="google_storage_bucket" translatable="false">rvirpro.appspot.com</string>
+    <string name="project_id" translatable="false">rvirpro</string>
+</resources>

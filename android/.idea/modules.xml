@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RVIR_projekt.iml" filepath="$PROJECT_DIR$/.idea/modules/RVIR_projekt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RVIR_projekt.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RVIR_projekt.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2093354783/RVIR_projekt.expo.iml" filepath="$PROJECT_DIR$/.idea/modules/2093354783/RVIR_projekt.expo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/672910498/RVIR_projekt.expo-application.iml" filepath="$PROJECT_DIR$/.idea/modules/672910498/RVIR_projekt.expo-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-258458079/RVIR_projekt.expo-constants.iml" filepath="$PROJECT_DIR$/.idea/modules/-258458079/RVIR_projekt.expo-constants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1849987560/RVIR_projekt.expo-error-recovery.iml" filepath="$PROJECT_DIR$/.idea/modules/1849987560/RVIR_projekt.expo-error-recovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/142965490/RVIR_projekt.expo-file-system.iml" filepath="$PROJECT_DIR$/.idea/modules/142965490/RVIR_projekt.expo-file-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1704577277/RVIR_projekt.expo-font.iml" filepath="$PROJECT_DIR$/.idea/modules/1704577277/RVIR_projekt.expo-font.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1932541291/RVIR_projekt.expo-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/1932541291/RVIR_projekt.expo-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1675256109/RVIR_projekt.expo-modules-core.iml" filepath="$PROJECT_DIR$/.idea/modules/-1675256109/RVIR_projekt.expo-modules-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1386479460/RVIR_projekt.expo-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/1386479460/RVIR_projekt.expo-splash-screen.iml" />
+    </modules>
+  </component>
+</project>

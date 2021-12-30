@@ -1,0 +1,370 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rvir"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:4:3-75
+11-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:3:3-77
+13-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:3:20-75
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:5:3-63
+14-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:5:20-61
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:6:3-78
+15-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:9:7-58
+19-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:10:7-67
+21-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:11:7-37
+23-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:11:13-35
+24        </intent>
+25        <!-- Query open documents -->
+26        <intent>
+26-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-21:18
+27            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+27-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-79
+27-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:21-76
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Tilen\.gradle\caches\transforms-3\3d6d66423cb790b552a6ce98b2518c04\transformed\jetified-flipper-0.54.0\AndroidManifest.xml:16:5-76
+31-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Tilen\.gradle\caches\transforms-3\3d6d66423cb790b552a6ce98b2518c04\transformed\jetified-flipper-0.54.0\AndroidManifest.xml:16:22-73
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[:react-native-firebase_auth] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+32-->[:react-native-firebase_auth] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->[:react-native-firebase_auth] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+33-->[:react-native-firebase_auth] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+34    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Tilen\.gradle\caches\transforms-3\c641881ea4b7192a6187a889a9584f7e\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+35-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Tilen\.gradle\caches\transforms-3\c641881ea4b7192a6187a889a9584f7e\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+36
+37    <application
+37-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:14:3-32:17
+38        android:name="com.rvir.MainApplication"
+38-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:14:16-47
+39        android:allowBackup="true"
+39-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:14:162-188
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.6.0] C:\Users\Tilen\.gradle\caches\transforms-3\00f7f57b381579b32b6f96d9a2c25b39\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:14:81-115
+43        android:label="@string/app_name"
+43-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:14:48-80
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:14:116-161
+45        android:theme="@style/AppTheme"
+45-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:14:189-220
+46        android:usesCleartextTraffic="true" >
+46-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:14:221-256
+47        <meta-data
+47-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:15:5-82
+48            android:name="expo.modules.updates.ENABLED"
+48-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:15:16-59
+49            android:value="true" />
+49-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:15:60-80
+50        <meta-data
+50-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:16:5-93
+51            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+51-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:16:16-68
+52            android:value="44.0.0" />
+52-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:16:69-91
+53        <meta-data
+53-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:17:5-105
+54            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+54-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:17:16-80
+55            android:value="ALWAYS" />
+55-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:17:81-103
+56        <meta-data
+56-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:18:5-99
+57            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+57-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:18:16-79
+58            android:value="0" />
+58-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:18:80-97
+59
+60        <activity
+60-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:19:5-30:16
+61            android:name="com.rvir.MainActivity"
+61-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:19:15-43
+62            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+62-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:19:77-154
+63            android:label="@string/app_name"
+63-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:19:44-76
+64            android:launchMode="singleTask"
+64-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:19:155-186
+65            android:screenOrientation="portrait"
+65-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:19:276-312
+66            android:theme="@style/Theme.App.SplashScreen"
+66-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:19:230-275
+67            android:windowSoftInputMode="adjustResize" >
+67-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:19:187-229
+68            <intent-filter>
+68-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:20:7-23:23
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:21:9-60
+69-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:21:17-58
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:22:9-68
+71-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:22:19-66
+72            </intent-filter>
+73            <intent-filter>
+73-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:24:7-29:23
+74                <action android:name="android.intent.action.VIEW" />
+74-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:9:7-58
+74-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:9:15-56
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:26:9-67
+76-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:26:19-65
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:10:7-67
+77-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:10:17-65
+78
+79                <data android:scheme="com.rvir" />
+79-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:11:7-37
+79-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:11:13-35
+80            </intent-filter>
+81        </activity>
+82        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+82-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:31:5-81
+82-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:31:15-79
+83
+84        <meta-data
+84-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:36
+85            android:name="app_data_collection_default_enabled"
+85-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-63
+86            android:value="true" />
+86-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-33
+87
+88        <service
+88-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-20:19
+89            android:name="com.google.firebase.components.ComponentDiscoveryService"
+89-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-89
+90            android:directBootAware="true"
+90-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\ff3b4fa3e6b38f04440c4cf73e5672b1\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+91            android:exported="false" >
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+92            <meta-data
+92-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:85
+93                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+93-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-120
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+96                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\a45d1a49d96510522c86789446497961\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+99                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+99-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\a45d1a49d96510522c86789446497961\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\a45d1a49d96510522c86789446497961\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+101        </service>
+102
+103        <provider
+103-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-26:38
+104            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+104-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-88
+105            android:authorities="com.rvir.reactnativefirebaseappinitprovider"
+105-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-86
+106            android:exported="false"
+106-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-37
+107            android:initOrder="99" />
+107-->[:react-native-firebase_app] C:\RVIR_Projekt\RVIR_projekt\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-35
+108        <provider
+108-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-34:20
+109            android:name="expo.modules.filesystem.FileSystemFileProvider"
+109-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-74
+110            android:authorities="com.rvir.FileSystemFileProvider"
+110-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-74
+111            android:exported="false"
+111-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-37
+112            android:grantUriPermissions="true" >
+112-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-47
+113            <meta-data
+113-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:70
+114                android:name="android.support.FILE_PROVIDER_PATHS"
+114-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-67
+115                android:resource="@xml/file_system_provider_paths" />
+115-->[:expo-file-system] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-67
+116        </provider>
+117
+118        <meta-data
+118-->[:expo-modules-core] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-modules-core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:89
+119            android:name="org.unimodules.core.AppLoader#react-native-headless"
+119-->[:expo-modules-core] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-modules-core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+120            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+120-->[:expo-modules-core] C:\RVIR_Projekt\RVIR_projekt\node_modules\expo-modules-core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-86
+121
+122        <activity
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+123            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+124            android:excludeFromRecents="true"
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+125            android:exported="true"
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+126            android:launchMode="singleTask"
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+128            <intent-filter>
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+129                <action android:name="android.intent.action.VIEW" />
+129-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:9:7-58
+129-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:9:15-56
+130
+131                <category android:name="android.intent.category.DEFAULT" />
+131-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:26:9-67
+131-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:26:19-65
+132                <category android:name="android.intent.category.BROWSABLE" />
+132-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:10:7-67
+132-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:10:17-65
+133
+134                <data
+134-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:11:7-37
+135                    android:host="firebase.auth"
+136                    android:path="/"
+137                    android:scheme="genericidp" />
+137-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:11:13-35
+138            </intent-filter>
+139        </activity>
+140        <activity
+140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+141            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+142            android:excludeFromRecents="true"
+142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+143            android:exported="true"
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+144            android:launchMode="singleTask"
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+146            <intent-filter>
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+147                <action android:name="android.intent.action.VIEW" />
+147-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:9:7-58
+147-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:9:15-56
+148
+149                <category android:name="android.intent.category.DEFAULT" />
+149-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:26:9-67
+149-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:26:19-65
+150                <category android:name="android.intent.category.BROWSABLE" />
+150-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:10:7-67
+150-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:10:17-65
+151
+152                <data
+152-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:11:7-37
+153                    android:host="firebase.auth"
+154                    android:path="/"
+155                    android:scheme="recaptcha" />
+155-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:11:13-35
+156            </intent-filter>
+157        </activity>
+158
+159        <service
+159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+160            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+161            android:enabled="true"
+161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+162            android:exported="false" >
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+163            <intent-filter>
+163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+164                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Tilen\.gradle\caches\transforms-3\ca02c66580a9d27b83e0f7543c0bface\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:26:9-67
+166-->C:\RVIR_Projekt\RVIR_projekt\android\app\src\main\AndroidManifest.xml:26:19-65
+167            </intent-filter>
+168        </service>
+169
+170        <activity
+170-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\e2404fa5794c9a2a38e606f5a36d223a\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:23:9-27:75
+171            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+171-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\e2404fa5794c9a2a38e606f5a36d223a\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:24:13-93
+172            android:excludeFromRecents="true"
+172-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\e2404fa5794c9a2a38e606f5a36d223a\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:25:13-46
+173            android:exported="false"
+173-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\e2404fa5794c9a2a38e606f5a36d223a\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:26:13-37
+174            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+174-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\e2404fa5794c9a2a38e606f5a36d223a\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:27:13-72
+175        <!--
+176            Service handling Google Sign-In user revocation. For apps that do not integrate with
+177            Google Sign-In, this service will never be started.
+178        -->
+179        <service
+179-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\e2404fa5794c9a2a38e606f5a36d223a\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:33:9-37:51
+180            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+180-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\e2404fa5794c9a2a38e606f5a36d223a\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:34:13-89
+181            android:exported="true"
+181-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\e2404fa5794c9a2a38e606f5a36d223a\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:35:13-36
+182            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+182-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\e2404fa5794c9a2a38e606f5a36d223a\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:36:13-107
+183            android:visibleToInstantApps="true" />
+183-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\e2404fa5794c9a2a38e606f5a36d223a\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:37:13-48
+184
+185        <activity
+185-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\f3bf924e75f1d2fa169fa457d9a9905d\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+186            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+186-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\f3bf924e75f1d2fa169fa457d9a9905d\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+187            android:exported="false"
+187-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\f3bf924e75f1d2fa169fa457d9a9905d\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+188            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+188-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\f3bf924e75f1d2fa169fa457d9a9905d\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+189
+190        <provider
+190-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\ff3b4fa3e6b38f04440c4cf73e5672b1\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+191            android:name="com.google.firebase.provider.FirebaseInitProvider"
+191-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\ff3b4fa3e6b38f04440c4cf73e5672b1\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+192            android:authorities="com.rvir.firebaseinitprovider"
+192-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\ff3b4fa3e6b38f04440c4cf73e5672b1\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+193            android:directBootAware="true"
+193-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\ff3b4fa3e6b38f04440c4cf73e5672b1\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+194            android:exported="false"
+194-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\ff3b4fa3e6b38f04440c4cf73e5672b1\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+195            android:initOrder="100" />
+195-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\ff3b4fa3e6b38f04440c4cf73e5672b1\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+196
+197        <meta-data
+197-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\9b85b40f33e5bd5149a198c206bbf43a\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+198            android:name="com.google.android.gms.version"
+198-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\9b85b40f33e5bd5149a198c206bbf43a\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+199            android:value="@integer/google_play_services_version" />
+199-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Tilen\.gradle\caches\transforms-3\9b85b40f33e5bd5149a198c206bbf43a\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+200    </application>
+201
+202</manifest>
